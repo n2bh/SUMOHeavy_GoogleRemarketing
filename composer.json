@@ -1,0 +1,25 @@
+{
+  "name": "sumoheavy/magento-googleremarketing",
+  "type": "magento-module",
+  "description": "Google Remarketing Module for Magento",
+  "keywords": ["magento"],
+  "homepage": "https://github.com/sumoheavy/SUMOHeavy_GoogleRemarketing",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Sean Kennedy",
+      "email": "sean@sumoheavy.com",
+      "homepage": "http://www.sumoheavy.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.13",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      ["app", "app"]
+    ]
+  }
+}
