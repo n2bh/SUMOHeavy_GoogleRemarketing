@@ -39,8 +39,8 @@ class SUMOHeavy_GoogleRemarketing_Block_Block extends Mage_Core_Block_Abstract
             $_productId = '';
             $_productPrice = '';
             if ($_product) {
-                $_productId = $_product->getId();
-                $_productPrice = $_product->getPrice();
+                $_productId = $_product->getData('sku');
+                $_productPrice = number_format($_product->getFinalPrice(), 2, '.', '');
             }
             $_conversionId = $this->getGoogleConversionId();
             $_conversionLabel = $this->getGoogleConversionLabel();
