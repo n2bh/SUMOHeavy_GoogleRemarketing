@@ -54,7 +54,7 @@ var google_tag_params = {
 
 /* <![CDATA[ */
 var google_conversion_id = $_conversionId;
-var google_conversion_label = $_conversionLabel;
+var google_conversion_label = '$_conversionLabel';
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
